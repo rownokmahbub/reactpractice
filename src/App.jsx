@@ -1,18 +1,13 @@
-import Counter from "./components/Counter"
-import EventPlay from "./components/EventPlay"
-import Video from "./components/Video"
+
 import videos from "./components/data/videosdata"
-import EventPage from "./pages/EventPage"
-import RenderPage from "./pages/RenderPage"
-import StateMemory from "./pages/StateMemory"
+import VideosPage from "./pages/VideosPage"
+
 export default function App() {
 
   return (
-    <>
+    <div className="bg-slate-50">
+   <VideosPage/>
    
-    <RenderPage/>
-    <EventPage/>
-    <StateMemory/>
-    </>
+    </div>
   )
 }

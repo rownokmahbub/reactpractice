@@ -1,21 +1,34 @@
 import React from 'react'
-
+import  videosdata from './data/videosdata'
 const Video = ({title,id,views,chanel,verified,time}) => {
   
   
 
   return (
-    < >
- <div className='flex flex-col container mx-auto'>
+    <>
+ <div className='flex flex-col container mx-auto bg-white px-5 py-5 rounded-xl shadow-xl'>
 
-<p className='text-xl font-semibold'> {title}</p>
-    <img className='h-48 object-cover' src={`https://picsum.photos/id/${id}/200/300`} alt="" />
-    <p className='text-xl font-semibold'> {views}</p>
-    <p>{verified && '✅'}</p>
+
+    <img className='h-48 object-cover rounded-xl' src={`https://picsum.photos/id/1/200/300`} alt={title} />
+    <div className="flex justify-between items-center mt-3">
+    <p className='text-xl font-semibold'> {title}</p>
+    <p>  {time}
+   </p>
+    </div>
    
-    {time}
+    
+    <div className="flex justify-between items-center">
+    <div className="flex gap-2 items-center">
     {chanel}
-    {}
+    <p>{verified && '✅'}</p>
+    </div>
+    <p className='text-sm text-gray-400 font-semibold'> {views}</p>
+    </div>
+   
+  
+   
+  
+   
 
   </div>
     </>
