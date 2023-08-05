@@ -1,5 +1,4 @@
 import React from 'react'
-import  videosdata from './data/videosdata'
 const Video = ({title,id,views,chanel,verified,time}) => {
   
   
@@ -11,7 +10,7 @@ const Video = ({title,id,views,chanel,verified,time}) => {
 
     <img className='h-48 object-cover rounded-xl' src={`https://picsum.photos/id/1/200/300`} alt={title} />
     <div className="flex justify-between items-center mt-3">
-    <p className='text-xl font-semibold'> {title}</p>
+    <p className='text-lg font-semibold'> {title}</p>
     <p>  {time}
    </p>
     </div>
