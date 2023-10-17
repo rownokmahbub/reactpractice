@@ -15,8 +15,7 @@ const BGcolor = () => {
             <button onClick={()=> setColor('pink')} className='outline-none px-4 py-2 rounded-full text-black shadow-xl focus:ring-4 ring-pink-300' style={{backgroundColor : "pink"}}>Pink</button>
             <button onClick={()=> setColor('purple')} className='outline-none px-4 py-2 rounded-full text-white shadow-xl focus:ring-4 ring-purple-300' style={{backgroundColor : "purple"}}>Purple</button>
             <button onClick={()=> setColor('lavender')} className='outline-none px-4 py-2 rounded-full text-black shadow-xl focus:ring-4 ring-lavender-300' style={{backgroundColor : "lavender"}}>Lavender</button>
-            <button onClick={()=> setColor('white')} className='outline-none px-4 py-2 rounded-full text-black shadow-xl focus:ring-4 ring-slate-200' style={{backgroundColor : "white"}}>White</button>
-            <button onClick={()=> setColor('black')} className='outline-none px-4 py-2 rounded-full text-white shadow-xl focus:ring-4 ring-slate-700' style={{backgroundColor : "black"}}>Black</button>
+            <button onClick={()=> setColor('white')} className='outline-none px-4 py-2 rounded-full  text-white shadow-xl focus:ring-4 ring-slate-700' style={{backgroundColor : "black"}}>Black</button>
         </div>
         </div>
     </div>
