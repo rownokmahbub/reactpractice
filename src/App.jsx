@@ -1,6 +1,7 @@
 
 import BGcolor from "./components/Color/BGcolor"
 import Counter from "./components/Counter"
+import Todos from "./components/context/Todos"
 import CurrencyConverter from "./components/currencyconverter/CurrencyConverter"
 import ContextProvider from "./components/minicontext/ContextProvider"
 import Login from "./components/minicontext/Login"
@@ -21,7 +22,8 @@ export default function App() {
   {/* <CurrencyConverter/> */}
     {/* <Login/>
     <Profile/> */}
-    <ThemeSwitcher/>
+    {/* <ThemeSwitcher/> */}
+    <Todos/>
     </ContextProvider>
   )
 }
